@@ -1,6 +1,5 @@
 # 텐서보드를 이용하기 위해 각종 변수들을 설정하고 저장하는 방법을 익혀봅니다.
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+#CUDA11.0 kit
 import tensorflow as tf
 import numpy as np
 import tensorflow.compat.v1 as tf
